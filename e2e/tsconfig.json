@@ -1,0 +1,14 @@
+{
+  "include": [
+    "**/*.ts", "src/plugins/index.js"
+  ],
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "jasmine",
+      "jasminewd2",
+      "node",
+      "cypress"
+    ]
+  },
+}
